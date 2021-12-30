@@ -1,0 +1,93 @@
+a)  T(n)=3T(n/2)+n
+
+
+Using master's theorem
+
+t(n)=aT(n/b)+Θ(n^k log^p n)
+
+here
+a=3 , b=2 , k=1, p=0
+
+If a>b^k , then T(n)=Θ(n^log^a b)
+
+therefore 
+
+T(n)=Θ(n^log^3 2)
+
+
+
+
+
+
+b)T (n) = 64T (n/8) − n^2(log n)
+
+
+Here there is a negative sign , So we cant apply master's theorem
+
+
+
+
+
+
+c) T (n) = 2nT (n/2) + n^n
+
+Here also we cant apply master's theorem 
+
+since
+ 
+a=2^n
+
+
+
+
+
+
+
+d) T (n) = 3T (n/3) + n/2 
+
+
+a=3 , b=3 , k=1 , p=0
+
+
+if p>-1 , then T(n)=Θ(n^log^a b  log^p+1 n)
+
+
+therefore
+
+T(n)=Θ(n^log^3 3  log^0+1 n)
+
+
+Θ(n log n)
+
+
+
+
+
+
+
+
+T (n) = 7T (n/3) + n^2
+
+a=7 , b=3 , k=2 , p=0
+
+
+T(n)=Θ(n^2 log^0 n)
+
+Θ(n^2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
